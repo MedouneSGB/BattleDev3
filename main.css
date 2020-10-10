@@ -1,0 +1,86 @@
+#logo {
+    float: left;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 16px 32px;
+    overflow: hidden;
+    background-color: #9C8AF1;
+    font-weight: bold;
+}
+
+#head {
+    background-color: #9C8AF1;
+    height: 300px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    color: #9C8AF1;
+    box-shadow: 0px 0px 10px white;
+}
+
+#container {
+    margin-top: -60px;
+}
+
+#left {
+    margin-left: 40px;
+    float: left;
+    width: 25%;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#left:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#center {
+    display: inline-block;
+    margin: 0 auto;
+    width: 25%;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#center:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#right {
+    margin-right: 40px;
+    float: right;
+    width: 25%;
+    height: 160px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #489196;
+}
+
+#right:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 0px 20px #489196;
+}
+
+#input1 {
+    border-radius: 24%;
+}
